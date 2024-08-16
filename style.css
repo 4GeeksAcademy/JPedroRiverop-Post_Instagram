@@ -2,7 +2,7 @@ body {
     background-color: darkslategrey;
 }
 .heading {
-    width: 35%;
+    width: 450px;
     background-color: white;
     margin: 0 auto;
     font-size: 0;
@@ -10,7 +10,7 @@ body {
 .logo {
     display: inline-block;
     vertical-align: middle;
-    width: 15%;
+    width: 9%;
     font-size: 32px;
     text-align: center;
     
@@ -19,7 +19,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     font-size: 0.5rem;
-    width: 75%;
+    width: 84%;
 }
 .tituloPost h1, h2 {
     margin: 0 auto 0 5px;
@@ -27,7 +27,7 @@ body {
 .menu {
     display: inline-block;
     vertical-align: middle;
-    width: 10%;
+    width: 7%;
     font-size: 16px;
     text-align: right;
 }
@@ -36,8 +36,8 @@ body {
 }
 .photo {
     margin: 0 auto;
-    width: 35%;
-    height: 300px;
+    width: 450px;
+    height: 400px;
 }
 .photo img {
     object-fit: cover;
@@ -45,18 +45,26 @@ body {
     height: 100%;
 }
 .footer {
-    width: 35%;
+    width: 450px;
     background-color: white;
-    margin: 0 auto; 
+    margin: 0 auto 0; 
+}
+.footerIcons {
+    margin: 0 auto;
+    font-size: 0;
 }
 .icons {
     display: inline-block;
-    width: 85%;
+    width: 87%;
     margin: 10px;
+    font-size: 16px;
 }
 .iconSave {
+    font-size: 16px;
     display: inline-block;
-    
+    width: 6%;    
+    text-align: right;
+    margin-right: 5px;
 }
 .like {
     margin: 0 10px;
